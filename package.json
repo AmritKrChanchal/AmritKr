@@ -2,10 +2,9 @@
     "name": "AmritKr",
     "version": "1.0.0",
     "description": "",
-    "scripts": {
-        "build": "index.js",
-        "test": "index.js",
-        "start": "node index.js"
+    "main": "index.js",
+  "scripts": {
+    "toc": "markdown-toc -i --maxdepth 3 README.md"
     },
     "repository": {
         "type": "git",
@@ -16,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/AmritKrChanchal/AmritKr/issues"
     },
-    "homepage": "https://github.com/AmritKrChanchal/AmritKr/#index"
+    "homepage": "https://github.com/AmritKrChanchal/AmritKr/#REDEME"
+    "dependencies": {
+    "markdown-toc": "^1.2.0"
+  }
 }
