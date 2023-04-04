@@ -2,13 +2,12 @@
     "name": "AmritKr",
     "version": "1.0.0",
     "description": "",
+  "main": "index.html",
   "scripts": {
-    "build-project": "index.html ",
-    "test": "jest"
-  }
-    },
-    "repository": {
-        "type": "git",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
         "url": "git+https://github.com/AmritKrChanchal/AmritKr.git"
     },
     "author": "",
@@ -16,6 +15,8 @@
     "bugs": {
         "url": "https://github.com/AmritKrChanchal/AmritKr/issues"
     },
-    "homepage": "https://github.com/AmritKrChanchal/AmritKr/#REDEME"
-    
+    "homepage": "git+https://github.com/AmritKrChanchal/AmritKr.git",
+  "dependencies": {
+    "express": "^4.17.1"
+    }
   }
