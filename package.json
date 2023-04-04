@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "description": "",
   "scripts": {
-    "build-project": "node index.js ",
+    "build-project": "index.html ",
     "test": "jest"
   }
-    }
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AmritKrChanchal/AmritKr.git"
@@ -17,7 +17,5 @@
         "url": "https://github.com/AmritKrChanchal/AmritKr/issues"
     },
     "homepage": "https://github.com/AmritKrChanchal/AmritKr/#REDEME"
-    "dependencies": {
-    "markdown-toc": "^1.2.0"
+    
   }
-}
